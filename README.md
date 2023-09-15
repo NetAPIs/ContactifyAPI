@@ -3,7 +3,7 @@
 ContactifyAPI is a CRUD API project designed to serve as the backend for Contactify.UI, a contact management application. 
 This API allows you to perform basic Create, Read, Update, and Delete (CRUD) operations on contact data.
 
-**Table of Contents**
+## Table of Contents
 
 - Getting Started
 - Installation
@@ -11,7 +11,7 @@ This API allows you to perform basic Create, Read, Update, and Delete (CRUD) ope
 - Contributing
 - License
   
-**Getting Started**
+## Getting Started
 
 *Prerequisites*
 
@@ -21,7 +21,7 @@ Before you begin, ensure you have met the following requirements:
 - SQL EXPRESS installed and running
 - Contactify.UI project set up (frontend)
   
-**Installation**
+## Installation
 
 - Clone the ContactifyAPI repository:
 
@@ -33,7 +33,7 @@ Before you begin, ensure you have met the following requirements:
 
 - Configure environment variables (if necessary).
 
-**API Endpoints**
+## API Endpoints
 
 *Here are the main API endpoints provided by ContactifyAPI:*
 
@@ -44,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
 - DELETE /api/contacts/:id: Delete a contact.
 - Detailed documentation for each endpoint can be found in the API documentation or by accessing the /api/docs endpoint when the server is running.
 
-**Contributing**
+## Contributing
 
 We welcome contributions from the community. To contribute to ContactifyAPI, please follow these steps:
 
@@ -56,5 +56,5 @@ We welcome contributions from the community. To contribute to ContactifyAPI, ple
 - Create a pull request to the main repository.
 - Please ensure that your code follows our coding standards and includes appropriate tests.
 
-**License**
+## License
 - This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
