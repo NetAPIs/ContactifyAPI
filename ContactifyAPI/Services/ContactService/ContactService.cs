@@ -15,9 +15,6 @@ namespace ContactifyAPI.Services.ContactService
 
         public async Task<ActionResult<Contact>> CreateContact(Contact contact)
         {
-            int maxId = _context.Contacts.Max(c => c.Id);
-            contact.Id = maxId + 1;
-
             _context.Contacts.Add(contact);
             await _context.SaveChangesAsync();
             return contact;
